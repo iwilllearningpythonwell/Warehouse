@@ -1,0 +1,164 @@
+<Pages>
+    <Page keyword="配置中心">
+        <UIElement keyword="配置中心" by="xpath" value="//span[text()='配置中心']"></UIElement>
+        <UIElement keyword="基础数据" by="xpath" value="//div[text()='基础数据']"></UIElement>
+            <UIElement keyword="片区管理" by="xpath" value="//li[normalize-space(text())='片区管理']"></UIElement>
+            <UIElement keyword="银行数据配置" by="xpath" value="//li[normalize-space(text())='银行数据配置']"></UIElement>
+        <UIElement keyword="成交节点" by="xpath" value="//div[text()='成交节点']"></UIElement>
+            <UIElement keyword="节点规则管理" by="xpath" value="//li[normalize-space(text())='节点规则管理']"></UIElement>
+            <UIElement keyword="结佣规则管理" by="xpath" value="//li[normalize-space(text())='结佣规则管理']"></UIElement>
+        <UIElement keyword="接口配置" by="xpath" value="//div[text()='接口配置']"></UIElement>
+            <UIElement keyword="客户状态映射" by="xpath" value="//li[normalize-space(text())='客户状态映射']"></UIElement>
+            <UIElement keyword="外部项目映射" by="xpath" value="//li[normalize-space(text())='外部项目映射']"></UIElement>
+            <UIElement keyword="外部接口映射" by="xpath" value="//li[normalize-space(text())='外部接口映射']"></UIElement>
+        <UIElement keyword="金蝶对接" by="xpath" value="//div[text()='金蝶对接']"></UIElement>
+            <UIElement keyword="金蝶推送管理" by="xpath" value="//li[normalize-space(text())='金蝶推送管理']"></UIElement>
+            <UIElement keyword="楼盘映射组织关系" by="xpath" value="//li[normalize-space(text())='楼盘映射组织关系']"></UIElement>
+            <UIElement keyword="辅助账项目映射" by="xpath" value="//li[normalize-space(text())='辅助账项目映射']"></UIElement>
+            <UIElement keyword="辅助账供应商映射" by="xpath" value="//li[normalize-space(text())='辅助账供应商映射']"></UIElement>
+            <UIElement keyword="辅助账客户映射" by="xpath" value="//li[normalize-space(text())='辅助账客户映射']"></UIElement>
+        <UIElement keyword="驳回设置" by="xpath" value="//div[text()='驳回设置']"></UIElement>
+            <UIElement keyword="驳回类目管理" by="xpath" value="//li[normalize-space(text())='驳回类目管理']"></UIElement>
+            <UIElement keyword="驳回原因管理" by="xpath" value="//li[normalize-space(text())='驳回原因管理']"></UIElement>
+    </Page>
+    <Page keyword="标准管控">
+        <UIElement keyword="标准管控" by="xpath" value="//span[text()='标准管控']"></UIElement>
+        <UIElement keyword="标准管理" by="xpath" value="//div[text()='标准管理']"></UIElement>
+            <UIElement keyword="项目合作标准" by="xpath" value="//li[normalize-space(text())='项目合作标准']"></UIElement>
+            <UIElement keyword="佣金结算标准" by="xpath" value="//li[normalize-space(text())='佣金结算标准']"></UIElement>
+            <UIElement keyword="团奖标准" by="xpath" value="//li[normalize-space(text())='团奖标准']"></UIElement>
+            <UIElement keyword="费用管控标准" by="xpath" value="//li[normalize-space(text())='费用管控标准']"></UIElement>
+            <UIElement keyword="跟投管控标准" by="xpath" value="//li[normalize-space(text())='跟投管控标准']"></UIElement>
+        <UIElement keyword="费用结算" by="xpath" value="//div[text()='费用结算']"></UIElement>
+            <UIElement keyword="费用结算管理" by="xpath" value="//li[normalize-space(text())='费用结算管理']"></UIElement>
+    </Page>
+    <Page keyword="合约中心">
+        <UIElement keyword="合约中心" by="xpath" value="//span[text()='合约中心']"></UIElement>
+        <UIElement keyword="签约方管理" by="xpath" value="//div[text()='签约方管理']"></UIElement>
+            <UIElement keyword="内部法人管理" by="xpath" value="//li[normalize-space(text())='内部法人管理']"></UIElement>
+            <UIElement keyword="渠道/经纪管理" by="xpath" value="//li[normalize-space(text())='渠道/经纪管理']"></UIElement>
+            <UIElement keyword="开发商管理" by="xpath" value="//li[normalize-space(text())='开发商管理']"></UIElement>
+        <UIElement keyword="合同管理" by="xpath" value="//div[text()='合同管理']"></UIElement>
+            <UIElement keyword="合同签订管理" by="xpath" value="//li[normalize-space(text())='合同签订管理']"></UIElement>
+            <UIElement keyword="合同终止" by="xpath" value="//li[normalize-space(text())='合同终止']"></UIElement>
+            <UIElement keyword="合同查询" by="xpath" value="//li[normalize-space(text())='合同查询']"></UIElement>
+            <UIElement keyword="合同类型管理" by="xpath" value="//li[normalize-space(text())='合同类型管理']"></UIElement>
+            <UIElement keyword="范本管理" by="xpath" value="//li[normalize-space(text())='范本管理']"></UIElement>
+        <UIElement keyword="跟投规则" by="xpath" value="//div[text()='跟投规则']"></UIElement>
+            <UIElement keyword="跟投分配规则" by="xpath" value="//li[normalize-space(text())='跟投分配规则']"></UIElement>
+            <UIElement keyword="分红结算规则" by="xpath" value="//li[normalize-space(text())='分红结算规则']"></UIElement>
+        <UIElement keyword="跟投管理" by="xpath" value="//div[text()='跟投管理']"></UIElement>
+            <UIElement keyword="跟投项目管理" by="xpath" value="//li[normalize-space(text())='跟投项目管理']"></UIElement>
+            <UIElement keyword="跟投支付管理" by="xpath" value="//li[normalize-space(text())='跟投支付管理']"></UIElement>
+            <UIElement keyword="转账汇款审核" by="xpath" value="//li[normalize-space(text())='转账汇款审核']"></UIElement>
+            <UIElement keyword="项目进展查看" by="xpath" value="//li[normalize-space(text())='项目进展查看']"></UIElement>
+            <UIElement keyword="项目清算管理" by="xpath" value="//li[normalize-space(text())='项目清算管理']"></UIElement>
+            <UIElement keyword="跟投收益记录" by="xpath" value="//li[normalize-space(text())='跟投收益记录']"></UIElement>
+    </Page>
+    <Page keyword="内容中心">
+        <UIElement keyword="内容中心" by="xpath" value="//span[text()='内容中心']"></UIElement>
+        <UIElement keyword="内容配置" by="xpath" value="//div[text()='内容配置']"></UIElement>
+            <UIElement keyword="首页弹窗管理" by="xpath" value="//li[normalize-space(text())='首页弹窗管理']"></UIElement>
+            <UIElement keyword="海报配置" by="xpath" value="//li[normalize-space(text())='海报配置']"></UIElement>
+            <UIElement keyword="直播课程配置" by="xpath" value="//li[normalize-space(text())='直播课程配置']"></UIElement>
+            <UIElement keyword="管家端公告配置" by="xpath" value="//li[normalize-space(text())='管家端公告配置']"></UIElement>
+            <UIElement keyword="闪屏广告" by="xpath" value="//li[normalize-space(text())='闪屏广告']"></UIElement>
+        <UIElement keyword="资讯反馈" by="xpath" value="//div[text()='资讯反馈']"></UIElement>
+            <UIElement keyword="专题页配置" by="xpath" value="//li[normalize-space(text())='专题页配置']"></UIElement>
+    </Page>
+    <Page keyword="交易中心">
+        <UIElement keyword="交易中心" by="xpath" value="//span[text()='交易中心']"></UIElement>
+        <UIElement keyword="客户管理" by="xpath" value="//div[text()='客户管理']"></UIElement>
+            <UIElement keyword="客户列表" by="xpath" value="//li[normalize-space(text())='客户列表']"></UIElement>
+        <UIElement keyword="用户管理" by="xpath" value="//div[text()='用户管理']"></UIElement>
+            <UIElement keyword="用户列表" by="xpath" value="//li[normalize-space(text())='用户列表']"></UIElement>
+    </Page>
+    <Page keyword="财务结算">
+        <UIElement keyword="财务结算" by="xpath" value="//span[text()='财务结算']"></UIElement>
+        <UIElement keyword="支付板块" by="xpath" value="//div[text()='支付板块']"></UIElement>
+            <UIElement keyword="转账审核" by="xpath" value="//li[normalize-space(text())='转账审核']"></UIElement>
+        <UIElement keyword="业绩管理" by="xpath" value="//div[text()='业绩管理']"></UIElement>
+            <UIElement keyword="交易及佣金" by="xpath" value="//li[normalize-space(text())='交易及佣金']"></UIElement>
+            <UIElement keyword="回款确认" by="xpath" value="//li[normalize-space(text())='回款确认']"></UIElement>
+        <UIElement keyword="佣金审核" by="xpath" value="//div[text()='佣金审核']"></UIElement>
+            <UIElement keyword="经纪人奖励" by="xpath" value="//li[normalize-space(text())='经纪人奖励']"></UIElement>
+            <UIElement keyword="经纪人结佣" by="xpath" value="//li[normalize-space(text())='经纪人结佣']"></UIElement>
+            <UIElement keyword="经纪公司结佣" by="xpath" value="//li[normalize-space(text())='经纪公司结佣']"></UIElement>
+            <UIElement keyword="网络推客结佣" by="xpath" value="//li[normalize-space(text())='网络推客结佣']"></UIElement>
+        <UIElement keyword="奖励管理" by="xpath" value="//div[text()='奖励管理']"></UIElement>
+            <UIElement keyword="购物卡结佣" by="xpath" value="//li[normalize-space(text())='购物卡结佣']"></UIElement>
+            <UIElement keyword="购物卡类别" by="xpath" value="//li[normalize-space(text())='购物卡类别']"></UIElement>
+            <UIElement keyword="购物卡查询" by="xpath" value="//li[normalize-space(text())='购物卡查询']"></UIElement>
+            <UIElement keyword="购物卡库存" by="xpath" value="//li[normalize-space(text())='购物卡库存']"></UIElement>
+            <UIElement keyword="购物卡发货" by="xpath" value="//li[normalize-space(text())='购物卡发货']"></UIElement>
+        <UIElement keyword="返还支出" by="xpath" value="//div[text()='返还支出']"></UIElement>
+            <UIElement keyword="返还款查询" by="xpath" value="//li[normalize-space(text())='返还款查询']"></UIElement>
+            <UIElement keyword="返还款支付" by="xpath" value="//li[normalize-space(text())='返还款支付']"></UIElement>
+        <UIElement keyword="团奖结算" by="xpath" value="//div[text()='团奖结算']"></UIElement>
+            <UIElement keyword="团奖结算表" by="xpath" value="//li[normalize-space(text())='团奖结算表']"></UIElement>
+            <UIElement keyword="团奖申请" by="xpath" value="//li[normalize-space(text())='团奖申请']"></UIElement>
+            <UIElement keyword="团奖申请-财务" by="xpath" value="//li[normalize-space(text())='团奖申请-财务']"></UIElement>
+        <UIElement keyword="结算支付" by="xpath" value="//div[text()='结算支付']"></UIElement>
+            <UIElement keyword="结算查询" by="xpath" value="//li[normalize-space(text())='结算查询']"></UIElement>
+            <UIElement keyword="待支付清单" by="xpath" value="//li[normalize-space(text())='待支付清单']"></UIElement>
+            <UIElement keyword="支付清单查询" by="xpath" value="//li[normalize-space(text())='支付清单查询']"></UIElement>
+            <UIElement keyword="支付设置" by="xpath" value="//li[normalize-space(text())='支付设置']"></UIElement>
+    </Page>
+    <Page keyword="员工结算">
+        <UIElement keyword="员工结算" by="xpath" value="//span[text()='员工结算']"></UIElement>
+        <UIElement keyword="分佣设置" by="xpath" value="//div[text()='分佣设置']"></UIElement>
+            <UIElement keyword="合作标签管理" by="xpath" value="//li[normalize-space(text())='合作标签管理']"></UIElement>
+            <UIElement keyword="项目分佣管理" by="xpath" value="//li[normalize-space(text())='项目分佣管理']"></UIElement>
+            <UIElement keyword="项目等级管理" by="xpath" value="//li[normalize-space(text())='项目等级管理']"></UIElement>
+            <UIElement keyword="项目分佣比例明细" by="xpath" value="//li[normalize-space(text())='项目分佣比例明细']"></UIElement>
+        <UIElement keyword="员工管理" by="xpath" value="//div[text()='员工管理']"></UIElement>
+            <UIElement keyword="部门管理" by="xpath" value="//li[normalize-space(text())='部门管理']"></UIElement>
+            <UIElement keyword="业务线管理" by="xpath" value="//li[normalize-space(text())='业务线管理']"></UIElement>
+            <UIElement keyword="岗位管理" by="xpath" value="//li[normalize-space(text())='岗位管理']"></UIElement>
+            <UIElement keyword="员工管理" by="xpath" value="//li[normalize-space(text())='员工管理']"></UIElement>
+        <UIElement keyword="结算标准" by="xpath" value="//div[text()='结算标准']"></UIElement>
+            <UIElement keyword="区间标准设置" by="xpath" value="//li[normalize-space(text())='区间标准设置']"></UIElement>
+            <UIElement keyword="成交结算标准" by="xpath" value="//li[normalize-space(text())='成交结算标准']"></UIElement>
+            <UIElement keyword="营收结算标准" by="xpath" value="//li[normalize-space(text())='营收结算标准']"></UIElement>
+            <UIElement keyword="利润结算标准" by="xpath" value="//li[normalize-space(text())='利润结算标准']"></UIElement>
+            <UIElement keyword="利润标准设置" by="xpath" value="//li[normalize-space(text())='利润标准设置']"></UIElement>
+            <UIElement keyword="市场结算标准" by="xpath" value="//li[normalize-space(text())='市场结算标准']"></UIElement>
+        <UIElement keyword="计提标准" by="xpath" value="//div[text()='计提标准']"></UIElement>
+            <UIElement keyword="交易佣金标准" by="xpath" value="//li[normalize-space(text())='交易佣金标准']"></UIElement>
+            <UIElement keyword="业绩激励标准" by="xpath" value="//li[normalize-space(text())='业绩激励标准']"></UIElement>
+            <UIElement keyword="利润激励标准" by="xpath" value="//li[normalize-space(text())='利润激励标准']"></UIElement>
+            <UIElement keyword="市场佣金标准" by="xpath" value="//li[normalize-space(text())='市场佣金标准']"></UIElement>
+        <UIElement keyword="业绩结算" by="xpath" value="//div[text()='业绩结算']"></UIElement>
+            <UIElement keyword="成交结算" by="xpath" value="//li[normalize-space(text())='成交结算']"></UIElement>
+            <UIElement keyword="营收结算-月" by="xpath" value="//li[normalize-space(text())='营收结算-月']"></UIElement>
+            <UIElement keyword="营收结算-年" by="xpath" value="//li[normalize-space(text())='营收结算-年']"></UIElement>
+            <UIElement keyword="利润结算" by="xpath" value="//li[normalize-space(text())='利润结算']"></UIElement>
+            <UIElement keyword="市场结算" by="xpath" value="//li[normalize-space(text())='市场结算']"></UIElement>
+        <UIElement keyword="内部激励" by="xpath" value="//div[text()='内部激励']"></UIElement>
+            <UIElement keyword="员工佣金发放总表" by="xpath" value="//li[normalize-space(text())='员工佣金发放总表']"></UIElement>
+            <UIElement keyword="市场佣金" by="xpath" value="//li[normalize-space(text())='市场佣金']"></UIElement>
+            <UIElement keyword="交易佣金" by="xpath" value="//li[normalize-space(text())='交易佣金']"></UIElement>
+            <UIElement keyword="员工激励-月" by="xpath" value="//li[normalize-space(text())='员工激励-月']"></UIElement>
+            <UIElement keyword="员工激励-年" by="xpath" value="//li[normalize-space(text())='员工激励-年']"></UIElement>
+            <UIElement keyword="利润激励-年" by="xpath" value="//li[normalize-space(text())='利润激励-年']"></UIElement>
+        <UIElement keyword="报表查询" by="xpath" value="//div[text()='报表查询']"></UIElement>
+            <UIElement keyword="员工分佣报表查询" by="xpath" value="//li[normalize-space(text())='员工分佣报表查询']"></UIElement>
+    </Page>
+    <Page keyword="数据中心">
+        <UIElement keyword="数据中心" by="xpath" value="//span[text()='数据中心']"></UIElement>
+        <UIElement keyword="数据汇总" by="xpath" value="//div[text()='数据汇总']"></UIElement>
+            <UIElement keyword="渠道佣金" by="xpath" value="//li[normalize-space(text())='渠道佣金']"></UIElement>
+            <UIElement keyword="好生活结佣汇总" by="xpath" value="//li[normalize-space(text())='好生活结佣汇总']"></UIElement>
+            <UIElement keyword="好生活资金池" by="xpath" value="//li[normalize-space(text())='好生活资金池']"></UIElement>
+            <UIElement keyword="KPI指标管理" by="xpath" value="//li[normalize-space(text())='KPI指标管理']"></UIElement>
+            <UIElement keyword="好生活kpi考核" by="xpath" value="//li[normalize-space(text())='好生活kpi考核']"></UIElement>
+            <UIElement keyword="驳回统计池" by="xpath" value="//li[normalize-space(text())='驳回统计池']"></UIElement>
+    </Page>
+    <Page keyword="人力中心">
+        <UIElement keyword="人力中心" by="xpath" value="//span[text()='人力中心']"></UIElement>
+        <UIElement keyword="考勤管理" by="xpath" value="//div[text()='考勤管理']"></UIElement>
+            <UIElement keyword="个人考勤记录" by="xpath" value="//li[normalize-space(text())='个人考勤记录']"></UIElement>
+            <UIElement keyword="考勤月度统计" by="xpath" value="//li[normalize-space(text())='考勤月度统计']"></UIElement>
+            <UIElement keyword="考勤人员管理" by="xpath" value="//li[normalize-space(text())='考勤人员管理']"></UIElement>
+    </Page>
+</Pages>

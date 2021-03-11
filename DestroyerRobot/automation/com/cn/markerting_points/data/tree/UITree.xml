@@ -1,0 +1,7 @@
+<Pages>
+    <Page keyword="积分列表">
+        <UIElement keyword="积分管理" by="xpath" value="//*[contains(text(),'积分管理')]"></UIElement>
+        <UIElement keyword="营销管理" by="xpath" value="//*[contains(text(),'营销管理')]"></UIElement>
+        <UIElement keyword="积分商城" by="xpath" value="//*[contains(text(),'积分商城')]"></UIElement>
+    </Page>
+</Pages>

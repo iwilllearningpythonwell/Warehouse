@@ -1,0 +1,13 @@
+<Pages>
+    <Page keyword="登录页面">
+        <UIElement keyword="用户" by="id" value="mobile"></UIElement>
+        <UIElement keyword="密码" by="id" value="password"></UIElement>
+        <UIElement keyword="登录按钮" by="id" value="login"></UIElement>
+    </Page>
+    <Page keyword="首页">
+        <UIElement keyword="客户管理" by="xpath" value="//span[contains(text(),'客户管理')]"></UIElement>
+    </Page>
+    <Page keyword="模板">
+        <UIElement keyword="模板按钮" by="name" value="iframe3"></UIElement>
+    </Page>
+</Pages>

@@ -1,0 +1,14 @@
+platformName: Android
+platformVersion: 7.1.2
+deviceIP: 127.0.0.1
+devicePort: 21503
+app: automation/app/cn/apk/好房测试.apk
+appPackage: com.easylife.house.customer.test
+appActivity: com.easylife.house.customer.ui.pub.LaunchActivity
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+automationName: uiautomator2
+img: automation/app/cn/Customer/img
+report: automation/app/cn/Customer/report
+data: automation/app/cn/Customer/config/data.yaml

@@ -1,0 +1,63 @@
+#测试环境域名
+#老运营
+tcms: https://tcms.lifeat.cn:45788/cms
+#新运营
+tnapi: https://tcmsapi.lifeat.cn:45788
+#开发商端
+tweb: https://tdeveloper.lifeat.cn:45788/web
+tpos: https://tpos.lifeat.cn:45788/pos
+tbroker: https://tbroker.lifeat.cn:45788/easylife
+tcustomer: https://tcustomer.lifeat.cn:45788/customer
+tapi: https://tapi.lifeat.cn:45788
+#在线选房
+thouseSale: https://thouse-on-sale.lifeat.cn:45788/cms
+ntcms: https://ntcms.lifeat.cn:45788/cms
+#文章静态页面
+thtml: https://thtml.lifeat.cn:45788
+#静态页面，嵌入到c，b端app
+tpage: https://tpage.lifeat.cn:45788/#
+#七牛
+kfcdn: http://kfcdn.lifeat.cn/
+#xxl-job-后台
+tjob: http://10.2.39.132:8088/xxl-job-admin/toLogin
+#微楼盘后台
+tminiDev: https://tmini.lifeat.cn:45788
+#tuser: https://tuser.lifeat.cn:45788/user/page/login
+tbi: https://tbi.lifeat.cn:45788
+#h3
+th3bpmPortal: https://th3bpm.lifeat.cn:45788/Portal
+th3bpmMobile: https://th3bpm.lifeat.cn:45788/mobile/Mobile
+#帕斯通 - 测试地址、帕斯通 - 测试地址（租户管理）、帕斯通 - 测试地址（平台管理）
+uatPmsSso: https://uat-pms-sso.hopsontong.com:11013
+uatPmsTenant: https://uat-pms-tenant.hopsontong.com:11013/#
+uatPmsPlatform: https://uat-pms-platform.hopsontong.com:11013/#
+
+
+#头文件存放地址
+1: automation/api/config/header_cms.yaml
+2: automation/api/config/header_app.yaml
+3: automation/api/config/header_file.yaml
+
+#获取测试数据文件的绝对路径
+file_path1: automation/api/data/test_data.xlsx
+SheetName1: tapi
+#获取测试数据文件的绝对路径
+file_path2: automation/api/data/test_cms.xlsx
+SheetName2: cms_api
+
+#测试数据集地址
+test_path: automation/api/test
+
+#实际响应结果列
+CASE_trueResponse: trueResponse
+
+#动态修改头信息值
+token: token
+Authorization: Authorization
+
+#响应是否符合预期
+responseResult: 1
+
+#测试报告存放地址
+report : automation/api/report
+

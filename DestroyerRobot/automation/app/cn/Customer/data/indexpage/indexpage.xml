@@ -1,0 +1,7 @@
+<Pages>
+    <Page keyword="首页">
+        <UIElement keyword="个人信息保护指引" by="xpath" value="//*[@text='同意并使用']"></UIElement>
+        <UIElement keyword="进入C端" by="xpath" value="//*[@class='android.widget.ImageView']"></UIElement>
+    </Page>
+
+</Pages>

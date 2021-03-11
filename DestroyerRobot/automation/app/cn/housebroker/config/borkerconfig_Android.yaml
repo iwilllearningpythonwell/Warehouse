@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 8.0.0
+udid: YCYNW18109017045
+app: automation/app/cn/apk/经纪人测试.apk
+appPackage: com.easylife.house.broker.test
+appActivity: com.easylife.house.broker.ui.MainActivity
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+automationName: uiautomator2

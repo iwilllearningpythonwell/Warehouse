@@ -1,0 +1,12 @@
+indexpage:
+  xml: automation/app/cn/Customer/data/indexpage/indexpage.xml
+
+firstpage:
+  xml: automation/app/cn/Customer/data/firstpage/firstpage.xml
+
+myinfo:
+  xml: automation/app/cn/Customer/data/myinfo/myinfo.xml
+
+login:
+  excel: automation/app/cn/Customer/data/login/login.xlsx
+  xml: automation/app/cn/Customer/data/login/login.xml

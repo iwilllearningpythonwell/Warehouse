@@ -1,0 +1,7 @@
+<Pages>
+    <Page keyword="登录">
+        <UIElement keyword="账号密码登录" by="xpath" value="//*[@resource-id='com.easylife.house.customer.test:id/tvPassLogin']"></UIElement>
+        <UIElement keyword="手机号" by="xpath" value="//*[@resource-id='com.easylife.house.customer.test:id/etPhoneNumber']"></UIElement>
+        <UIElement keyword="密码" by="xpath" value="//*[@resource-id='com.easylife.house.customer.test:id/etPassword']"></UIElement>
+    </Page>
+</Pages>

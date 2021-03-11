@@ -1,0 +1,6 @@
+<Pages>
+    <Page keyword="商品页面">
+        <UIElement keyword="新建商品" by="xpath" value='//button[@type="button" and @class="el-button el-button--primary"]'></UIElement>
+        <UIElement keyword="查询商品" by="xpath" value='//button[@type="button" and @class="el-button el-button--success"]'></UIElement>
+    </Page>
+</Pages>

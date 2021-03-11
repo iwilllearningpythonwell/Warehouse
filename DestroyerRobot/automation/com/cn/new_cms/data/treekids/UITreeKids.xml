@@ -1,0 +1,12 @@
+<Pages>
+    <Page keyword="积分子列表">
+        <UIElement keyword="积分规则" by="xpath" value="//*[contains(text(),'积分规则')]"></UIElement>
+        <UIElement keyword="积分规则(小程序)" by="xpath" value="//*[contains(text(),'积分规则(小程序)')]"></UIElement>
+        <UIElement keyword="调整积分" by="xpath" value="//*[contains(text(),'调整积分')]"></UIElement>
+        <UIElement keyword="调整积分(小程序)" by="xpath" value="//*[contains(text(),'调整积分(小程序)')]"></UIElement>
+        <UIElement keyword="营销活动管理" by="xpath" value="//*[contains(text(),'营销活动管理')]"></UIElement>
+        <UIElement keyword="奖品管理" by="xpath" value="//*[contains(text(),'奖品管理')]"></UIElement>
+        <UIElement keyword="积分商品" by="xpath" value="//*[contains(text(),'积分商品')]"></UIElement>
+        <UIElement keyword="积分订单" by="xpath" value="//*[contains(text(),'积分订单')]"></UIElement>
+    </Page>
+</Pages>

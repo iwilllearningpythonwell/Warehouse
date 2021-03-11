@@ -1,0 +1,17 @@
+<Pages>
+    <Page keyword="我的">
+        <UIElement keyword="注册登录" by="xpath" value="//*[@text='注册登录']"></UIElement>
+        <UIElement keyword="我的积分" by="xpath" value="//*[@text='我的积分']"></UIElement>
+        <UIElement keyword="在线选房" by="xpath" value="//*[@text='在线选房']"></UIElement>
+        <UIElement keyword="闪购订单" by="xpath" value="//*[@text='闪购订单']"></UIElement>
+        <UIElement keyword="我的收藏" by="xpath" value="//*[@text='我的收藏']"></UIElement>
+        <UIElement keyword="积分商城" by="xpath" value="//*[@text='积分商城']"></UIElement>
+        <UIElement keyword="要请好友" by="xpath" value="//*[@text='要请好友']"></UIElement>
+        <UIElement keyword="我的奖品" by="xpath" value="//*[@text='我的奖品']"></UIElement>
+        <UIElement keyword="每日签到" by="xpath" value="//*[@text='每日签到']"></UIElement>
+        <UIElement keyword="我要买房" by="xpath" value="//*[@text='我要买房']"></UIElement>
+        <UIElement keyword="房贷计算器" by="xpath" value="//*[@text='房贷计算器']"></UIElement>
+        <UIElement keyword="税率计算器" by="xpath" value="//*[@text='税率计算器']"></UIElement>
+    </Page>
+
+</Pages>

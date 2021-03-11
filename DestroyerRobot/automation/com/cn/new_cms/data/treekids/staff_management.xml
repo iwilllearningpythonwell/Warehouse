@@ -1,0 +1,29 @@
+<Pages>
+    <Page keyword="部门管理">
+        <UIElement keyword="新建部门" by="xpath" value="//span[text()='新建部门']"></UIElement>
+        <UIElement keyword="输入部门名称" by="xpath" value="//input[@placeholder='请输入部门名称']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='保存']"></UIElement>
+        <UIElement keyword="新建部门弹窗" by="xpath" value="//div[@class='el-dialog__wrapper']"></UIElement>
+    </Page>
+    <Page keyword="业务线管理">
+        <UIElement keyword="新建业务线" by="xpath" value="//span[text()='新建业务线']"></UIElement>
+        <UIElement keyword="请输入业务线名称" by="xpath" value="//input[@placeholder='请输入业务线名称']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='保存']"></UIElement>
+        <UIElement keyword="新建业务线弹窗" by="xpath" value="//div[@class='el-dialog__wrapper']"></UIElement>
+    </Page>
+    <Page keyword="岗位管理">
+        <UIElement keyword="新建岗位" by="xpath" value="//span[text()='新建岗位']"></UIElement>
+        <UIElement keyword="输入岗位名称" by="xpath" value="//input[@placeholder='请输入岗位名称']"></UIElement>
+        <UIElement keyword="选择业务线" by="xpath" value="//input[@type='text'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="点击业务线" by="xpath" value="//span[text()='%s']"></UIElement>
+        <UIElement keyword="选择所属部门" by="xpath" value="//input[@type='text'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="点击所属部门" by="xpath" value="//span[text()='%s']"></UIElement>
+        <UIElement keyword="岗位权重范围_off" by="xpath" value="//input[@type='number'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="岗位权重范围_on" by="xpath" value="//input[@type='number'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="岗位标准权重" by="xpath" value="//input[@type='number'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="编制数量" by="xpath" value="//input[@placeholder='请输入编制数量']"></UIElement>
+        <UIElement keyword="选择角色" by="xpath" value="//input[@type='text'and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="点击角色" by="xpath" value="//span[text()='业务人员']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='保存']"></UIElement>
+    </Page>
+</Pages

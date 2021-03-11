@@ -1,0 +1,9 @@
+<Pages>
+    <Page keyword="首页">
+        <UIElement keyword="我的" by="xpath" value="//*[@text='我的']"></UIElement>
+        <UIElement keyword="消息" by="xpath" value="//*[@text='消息']"></UIElement>
+        <UIElement keyword="看房" by="xpath" value="//*[@text='看房']"></UIElement>
+        <UIElement keyword="首页" by="xpath" value="//*[@resource-id='com.easylife.house.customer.test:id/tabHome']"></UIElement>
+    </Page>
+
+</Pages>

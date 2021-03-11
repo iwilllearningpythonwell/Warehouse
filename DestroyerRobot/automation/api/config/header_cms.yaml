@@ -1,0 +1,7 @@
+AJAX: ajax
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnRfaWQiOiIyOCIsInVzZXJfaWQiOiIyMTUyIiwicGxhdGZvcm1faWQiOiIzIiwiaWF0IjoxNjE0NTg1ODIwLCJleHAiOjE2MTQ1OTMwMjAsIm5iZiI6MTYxNDU4NTgyMH0.bjNvtxDk6Idfg_GbXdebk-E7tv_SEI4a3tlTk1cZZ9E
+Connection: keep-alive
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML,like
+  Gecko) Chrome/80.0.3987.100 Safari/537.36
+token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMTg3MTg3NTA0MDQiLCJpYXQiOjE2MTQ1ODU4MjAsImV4cCI6MTYxNDU5MzAyMCwibmJmIjoxNjE0NTg1ODIwfQ.SCNYo9enWJFlmewteEGzRuoaycOylxJDP-7IVOrTIdQ

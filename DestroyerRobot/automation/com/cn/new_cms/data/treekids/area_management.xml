@@ -1,0 +1,12 @@
+<Pages>
+    <Page keyword="片区管理">
+        <UIElement keyword="新增" by="xpath" value="//span[text()='新增']"></UIElement>
+        <UIElement keyword="输入片区名称" by="xpath" value="//input[@placeholder='请输入片区名称']"></UIElement>
+        <UIElement keyword="选择归属区域" by="xpath" value="//input[@placeholder='请选择']"></UIElement>
+        <UIElement keyword="归属区域下拉选项" by="xpath" value="//span[text()='华北区域']"></UIElement>
+        <UIElement keyword="关联省份" by="xpath" value="//div[@class='el-tree-node__content']"></UIElement>
+        <UIElement keyword="关联城市" by="xpath" value="//div[@class='el-tree-node__content']"></UIElement>
+        <UIElement keyword="关联区县" by="xpath" value="//span[@class='el-checkbox__input']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='保存']"></UIElement>
+    </Page>
+</Pages>

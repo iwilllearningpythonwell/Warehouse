@@ -1,0 +1,7 @@
+<Pages>
+    <Page keyword="登录页面">
+        <UIElement keyword="用户" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="密码" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="登录按钮" by="tag name" value="button"></UIElement>
+    </Page>
+</Pages>

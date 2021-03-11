@@ -1,0 +1,45 @@
+<Pages>
+    <Page keyword="驳回类目管理_增">
+        <UIElement keyword="新增" by="xpath" value="//span[text()='新增']"></UIElement>
+        <UIElement keyword="驳回模块选择" by="xpath" value="//span[@class='el-input__suffix']"></UIElement>
+        <UIElement keyword="驳回模块下拉选项" by="xpath" value="//span[text()='客户跟进']"></UIElement>
+        <UIElement keyword="输入驳回分类" by="xpath" value="//input[@placeholder='请输入']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='确定']"></UIElement>
+        <UIElement keyword="保存成功确认弹窗" by="xpath" value="//span[normalize-space(text())='确定']"></UIElement>
+    </Page>
+        <Page keyword="驳回类目管理_查">
+        <UIElement keyword="查询条件" by="xpath" value="//input[@placeholder='请选择']"></UIElement>
+        <UIElement keyword="选择查询条件" by="xpath" value="//li[@class='el-select-dropdown__item']"></UIElement>
+        <UIElement keyword="查询" by="xpath" value="//span[text()='查询']"></UIElement>
+    </Page>
+        <Page keyword="驳回类目管理_编辑">
+        <UIElement keyword="新增" by="xpath" value="//span[text()='新增']"></UIElement>
+        <UIElement keyword="驳回模块选择" by="xpath" value="//span[@class='el-input__suffix']"></UIElement>
+        <UIElement keyword="驳回模块下拉选项" by="xpath" value="//span[text()='客户跟进']"></UIElement>
+        <UIElement keyword="输入驳回分类" by="xpath" value="//input[@placeholder='请输入']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='确定']"></UIElement>
+        <UIElement keyword="保存成功确认弹窗" by="xpath" value="//span[normalize-space(text())='确定']"></UIElement>
+        <UIElement keyword="查询条件" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="选择查询条件" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="查询" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="撤销" by="xpath" value="//span[text()='撤销']"></UIElement>
+        <UIElement keyword="编辑" by="xpath" value="//span[text()='编辑']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='执行']"></UIElement>
+        <UIElement keyword="执行弹窗确认" by="xpath" value="//span[normalize-space(text())='确定']"></UIElement>
+    </Page>
+        <Page keyword="驳回类目管理_撤销执行">
+        <UIElement keyword="新增" by="xpath" value="//span[text()='新增']"></UIElement>
+        <UIElement keyword="驳回模块选择" by="xpath" value="//span[@class='el-input__suffix']"></UIElement>
+        <UIElement keyword="驳回模块下拉选项" by="xpath" value="//span[text()='客户跟进']"></UIElement>
+        <UIElement keyword="输入驳回分类" by="xpath" value="//input[@placeholder='请输入']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='确定']"></UIElement>
+        <UIElement keyword="保存成功确认弹窗" by="xpath" value="//span[normalize-space(text())='确定']"></UIElement>
+        <UIElement keyword="查询条件" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="选择查询条件" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="查询" by="xpath" value="//span[text()='查询']"></UIElement>
+        <UIElement keyword="撤销" by="xpath" value="//span[text()='撤销']"></UIElement>
+        <UIElement keyword="编辑" by="xpath" value="//span[text()='编辑']"></UIElement>
+        <UIElement keyword="保存" by="xpath" value="//span[text()='执行']"></UIElement>
+        <UIElement keyword="执行弹窗确认" by="xpath" value="//span[normalize-space(text())='确定']"></UIElement>
+    </Page>
+</Pages>

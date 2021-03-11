@@ -1,0 +1,14 @@
+安装软件包含
+BeautifulReport
+PyMySQL
+XlsxWriter
+openpyxl
+selenium
+xlrd
+#不需要下载
+data
+ddt
+#decorator
+PyYAML
+pymongo
+requests

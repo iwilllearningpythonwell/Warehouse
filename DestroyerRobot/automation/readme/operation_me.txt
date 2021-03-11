@@ -1,0 +1,13 @@
+automation : 自动化测试框架（业务层 操作目录）
+config ：主配置信息文件
+datas_template:数据模板
+log : 日志信息存放地
+public_img : 公共图片
+readme ：信息文件存放地
+util : 工具类
+
+业务层 操作目录
+servers : 后台服务
+dao : 与mysql进行操作类文件
+test : 测试文件
+run : 运行文件并生成报告

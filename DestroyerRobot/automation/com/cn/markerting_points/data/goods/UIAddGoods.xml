@@ -1,0 +1,25 @@
+<Pages>
+    <Page keyword="新建商品页面">
+        <UIElement keyword="集团小程序" by="xpath" value="//*[contains(text(),'集团小程序')]"></UIElement>
+        <UIElement keyword="好房APP" by="xpath" value="//*[contains(text(),'好房APP')]"></UIElement>
+        <UIElement keyword="商品类型" by="xpath" value="//input[@readonly='readonly' and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="商品类型实物" by="xpath" value="//*[contains(text(),'实物')]"></UIElement>
+        <UIElement keyword="商品类型虚拟" by="xpath" value="//*[contains(text(),'虚拟')]"></UIElement>
+        <UIElement keyword="商品名称" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="商品单价" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="导入模板" by="xpath" value="//div[@class='el-form-item__content']/input[@type='file']"></UIElement>
+        <UIElement keyword="商品库存数量" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="消耗积分" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="上架时间" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="开始日期" by="xpath" value="//input[@placeholder='开始日期' and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="开始时间" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="结束日期" by="xpath" value="//input[@placeholder='结束日期' and @class='el-input__inner']"></UIElement>
+        <UIElement keyword="结束时间" by="class name" value="el-input__inner"></UIElement>
+        <UIElement keyword="日期确定" by="xpath" value="//button[@type='button']/span[contains(text(),'确定')]"></UIElement>
+        <UIElement keyword="上传图片" by="xpath" value="//div[@class='img-wrapper']/input[@type='file']"></UIElement>
+        <UIElement keyword="商品介绍" by="js" value="document.getElementsByTagName('p')[0].innerText='%s'"></UIElement>
+        <UIElement keyword="退货须知" by="js" value="document.getElementsByTagName('p')[1].innerText='%s'"></UIElement>
+        <UIElement keyword="创建并上架" by="xpath" value="//span[contains(text(),'创建并上架')]"></UIElement>
+        <UIElement keyword="确定上架" by="xpath" value="//button[@type='button' and @class='el-button el-button--default el-button--small el-button--primary ']/span[contains(text(),'确定')]"></UIElement>
+    </Page>
+</Pages>
