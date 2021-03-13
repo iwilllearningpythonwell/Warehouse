@@ -1,0 +1,206 @@
+# name = 'rain'
+# age = 18
+# gender = 'N'
+
+def People(name,gender,age):
+    def hello(peo):
+        print("hello [%s]" %peo["name"])
+    def world(peo):
+        print('world [%s]' % peo["age"])
+    def init(name,gender,age):
+        people = {
+            "name": name,
+            "gender": gender,
+            "age": age,
+            "hello": hello,
+            "world": world
+        }
+        return people
+    res = init(name,gender,age)
+    return res
+
+p1 = People("xie","N",2)
+p1["hello"](p1)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+'''
+类：把一类事物的相同的特性和动作整合到一起就是类
+类是一个抽象的概念
+对象：就是基于类而创建的一个具体的事物（具体存在的）
+也是特征和动作整合到一起
+
+
+
+学校 类：
+特征： name addr type
+动作：testting , 招生 ， 开除学生
+'''
+
+def school(name , addr , type):
+	def init( name ,addr ,type):
+		sch = {
+			"name" : name,
+			"addr" : addr,
+			"type" : type,
+			"kao_shi": kao_shi,
+			"zhao_sheng": zhao_sheng
+		}
+		return sch
+
+	def kao_shi(sch):
+		print("%s 学校正在考试" %sch["name"])
+	def zhao_sheng(sch):
+		print("%s %s 招生" %(sch["type"] , sch["name"]))
+
+	return init(name, addr, type)
+
+sh = school("rain","beijing","sili")
+print(sh)
+
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class Chinese:
+country = "China"
+def __init__(self,name):
+self.name = name
+
+def play_ball(self,ball):
+print("%s 正在打 %s" %(self.name,ball))
+
+Chinese.dang = "共产党" #类的增加，相当于字典的增加
+print(Chinese.dang)
+p1 = Chinese("xie")
+print(p1.dang)
+
+#删除 数据属性
+del Chinese.name
+del Chinese.dang
+
+def eat_food(self,food):
+print("%s 正在吃 %s" %(self.name,food))
+
+Chinese.eat_food
+
+++++++++++++++++++++++++++
+#！/usr/bin/python
+# -*- coding: UTF-8 -*-
+class Hand:
+pass
+class Foot:
+pass
+
+class Trunk:
+pass
+class Head:
+pass
+
+class Person:
+def __init__(self,id,name):
+self.name = name
+self.id = id
+self.hand = Hand()
+self.foot = Foot()
+self.trunk = Trunk()
+self.head = Head()
+
+
+
+p1 = Person("10000","vivid")
+#++++++++++++++++++++++++++++组合+++++++++++++++++++++++++++++++++++++++++++++++++++++
+#类和类之间的关联，没有共同点但有关联用组合
+class School:
+def __init__(self,name,addr):
+self.name = name
+self.addr = addr
+
+class Course :
+def __init__(self,name,price,period,school):
+self.name = name
+self.price = price
+self.period = period
+self.school = school
+
+
+
+s1 = School("oldboy" , "bj")
+s2 = School("oldboy" , "nj")
+s3 = School("oldboy", "dj")
+#
+# c1 = Course("linux",100,"1h",s1)
+msg = """
+1 old bj
+2 old nj
+3 old dj
+"""
+while True:
+menu={
+"1":s1,
+"2":s2,
+"3":s3
+}
+choice = input("输入一个值>>")
+school_obj = menu[choice]
+name = input("创建课程名>>")
+price = input("创建课程价格>>")
+period = input("创建课程周期>>")
+new_course = Course(name,price,period,school_obj)
+print("kec[%s]属于【%s】学校"%(new_course.name,new_course.school.name))
+
+
+#+++++++++++++++++++++++++++++++接口++++++++++++++++++++++++++++++++++++
+抽象类，抽象方法
+	* 
+抽象类，可以说是类和接口的混合体，既可以定义常规方法，也可以约束子类的方法（抽象方法）
+
+
+
+
+import abc
+class ClassFile(metaclass=abc.ABCMeta):
+@abc.abstractmethod
+def FileRead(self):
+pass
+
+@abc.abstractmethod
+def FileWrite(self):
+pass
+
+class Mem(ClassFile):
+def FileRead(self):
+print("读取文件")
+def FileWrite(self):
+print("写入文件")
+
+cf1 = Mem()
+cf1.FileWrite()
+
+#++++++++++++++++++++++++++++++++++++++++++++++++
+#super() 父类的方法使用
+
+import abc
+class vehicle(metaclass=abc.ABCMeta):
+def __init__(self,name,speed,load,power):
+self.name = name
+self.speed = speed
+self.load = load
+self.power = power
+@abc.abstractmethod
+def startRun(self):
+pass
+
+@abc.abstractmethod
+def stopRun(self):
+pass
+
+class Subway(vehicle):
+def __init__(self,name,speed,load,power,line):
+super().__init__(name,speed,load,power)
+self.line = line
+def startRun(self):
+print("开始启动 start")
+
+def stopRun(self):
+print("开始停止 stop")
+
+s = Subway("北京","100m/s",10000000,"E","line13")
+s.startRun()

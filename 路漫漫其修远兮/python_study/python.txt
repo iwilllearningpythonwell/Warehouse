@@ -1,0 +1,102 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+import hashlib
+import json
+def md5(arg):
+    """
+    :param arg: 传递参数值
+    :return: 返回加密数据
+    """
+    md5_pwd = hashlib.md5(bytes("add",encoding='utf-8'))
+    md5_pwd.update(bytes(arg,encoding="utf-8"))
+    return md5_pwd.hexdigest()
+
+def login(user,pwd):
+    #f = open("db.txt","r",encoding="utf-8")
+    with open("db.txt","r",encoding="utf-8") as f:
+        for line in f:
+            #print(line)
+            u,p = line.strip().split('|')
+            if u == user and p == md5(pwd):
+                return True
+
+def register(user,pwd):
+    with open("db.txt","a+",encoding="utf-8") as f:
+        temp = user+'|'+md5(pwd)+"\n"
+        f.write(temp)
+
+def register2(userdict):
+    fr = open("db.txt", "r", encoding="utf-8")
+    data = fr.readlines()
+    fr.close()
+    if data == '':
+        for k,v in userdict.items():
+            print(k,v)
+            with open("db.txt", "a+", encoding="utf-8") as f:
+                temp = k + '|' + md5(v) + "\n"
+                f.write(temp)
+                return True
+    else:
+        unamelist = []
+        for i in data:
+            u,p = i.strip().split('|')
+            unamelist.append(u)
+        ulist = "".join(list(userdict.keys()))
+        if ulist in unamelist:
+            return False
+        else:
+            for k,v in userdict.items():
+                print(k,v)
+                with open("db.txt", "a+", encoding="utf-8") as f:
+                    temp = k + '|' + md5(v) + "\n"
+                    f.write(temp)
+                    return True
+
+
+def userInfo():
+    """
+
+    :param user:username
+    :param pwd:password
+    :return:
+    """
+    username = input("请输入用户名：")
+    password = input("请输入密码：")
+    userdict={username:password}
+    userdata = json.dumps(userdict)
+    with open("info.log","a+",encoding="utf-8") as f:
+        f.write(userdata)
+    return userdict
+
+
+if __name__=="__main__":
+    """
+    login:用户登录
+    register:用户注册
+    """
+    stat = input("请输入用户登录状态：")
+    userstats={
+        "login" : "1",
+        "register":"2",
+    }
+    if userstats[stat]=="2":
+
+        userdict = userInfo()
+        utf=register2(userdict)
+        print(utf)
+        if utf:
+            print("注册成功")
+        else:
+            print("用户名已经注册")
+    elif userstats[stat]=="1":
+        # username = input("请输入用户名：")
+        # password = input("请输入密码：")
+        # userInfo(username,password)
+        # r = login(username,password) #验证用户名和密码
+        # if r:
+        #     print("login sucessful  欢迎用户%s登录成功" %username)
+        # else:
+        #     print("login error")
+        pass
+    else:
+        print("输入类型不存在!你想闹哪一出啊！")
