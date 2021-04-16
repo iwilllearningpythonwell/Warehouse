@@ -4,7 +4,7 @@ import openpyxl
 from openpyxl import utils,Workbook
 from openpyxl.drawing.image import Image
 from openpyxl.styles import Font,PatternFill
-import os,hashlib
+import os, hashlib
 
 class Excel07:
     def __init__(self):

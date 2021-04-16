@@ -4,7 +4,7 @@
 # @Author  : vivid
 # @FileName: ExcelUtil.py
 # @Software: PyCharm
-# @email    ：331597811@QQ.com
+
 import xlsxwriter
 import xlrd
 import re

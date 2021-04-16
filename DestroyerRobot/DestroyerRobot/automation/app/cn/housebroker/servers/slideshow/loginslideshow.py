@@ -6,7 +6,7 @@
 # @Software: PyCharm
 # @email   : 331597811@QQ.com
 
-from DestroyerRobot.automation.app.cn.base.baseapp import  BaseApp
+from DestroyerRobot.automation.app.cn.base.baseapp import BaseApp
 
 class LoginSideShow:
 

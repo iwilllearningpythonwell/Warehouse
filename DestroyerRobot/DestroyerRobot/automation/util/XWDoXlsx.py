@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # @Time    : 2020/10/13
-# @Author  : hopsonxw
 # @FileName: xw_doXlsx.py
 # @Software: PyCharm
-# @email    ：190135@lifeat.cn
+
 import os
 import pandas as pd
 import xlrd  # 导入读Excel的xlrd库

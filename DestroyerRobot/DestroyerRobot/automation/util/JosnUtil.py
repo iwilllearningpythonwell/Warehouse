@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 """
-@author: vivid
 @file: JosnUtil.py
 @time: 2020/5/20 23:24
 @software: PyCharm
-@email: 331597811@QQ.com
 @desc: json tool
 """
 import json

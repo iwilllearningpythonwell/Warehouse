@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 # -*- coding:utf-8 -*-
+
 import urllib.request
 
 def downloadImg(imgPaht,url,filename):

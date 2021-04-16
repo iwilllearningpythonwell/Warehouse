@@ -1,10 +1,9 @@
 ﻿#!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # @Time    : 2019/6/14 9:32
-# @Author  : vivid
 # @FileName: testRandom.py
 # @Software: PyCharm
-# @email    ：331597811@QQ.com
+
 import random
 import time
 class TestRamdom:

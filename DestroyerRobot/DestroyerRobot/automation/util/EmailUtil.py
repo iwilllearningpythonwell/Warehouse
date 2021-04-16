@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # @Time    : 2019/7/28
-# @Author  : vivid-XIEMENG
 # @FileName: test_mp_login.py
 # @Software: PyCharm
-# @email    ：331597811@QQ.com
 
 from DestroyerRobot.automation.util.SystemOsUtil import SystemOs
 from DestroyerRobot.automation.util.ConfigUtil import Config

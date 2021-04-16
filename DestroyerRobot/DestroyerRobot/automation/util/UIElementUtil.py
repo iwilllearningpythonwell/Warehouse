@@ -1,10 +1,8 @@
 # _*_ coding: utf-8 _*_
-
 # @Time         : 2019-04-06 19:54
-# @Author        : 路培强
-# @Email         : 136024009@qq.com
 # @File          :UIElementUtil.py
 # @Software      :PyCharm
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By

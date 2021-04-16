@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2020/8/6 15:44
-# @Author  : vivid
-# @Email   : 331597811@163.com
 # @File    : action.py
 
 import requests
-
-from DestroyerRobot.automation.util.JosnUtil import  JsonUtils
+from DestroyerRobot.automation.util.JosnUtil import JsonUtils
 from DestroyerRobot.automation.util.YamlUtil import yamlUtil
 
 

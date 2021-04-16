@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 2020\06\23 12:48:09
-# @Author  : vivid
-# @Email   : 331597811@163.com
 # @File    : compressImage.py
 
 from PIL import  Image

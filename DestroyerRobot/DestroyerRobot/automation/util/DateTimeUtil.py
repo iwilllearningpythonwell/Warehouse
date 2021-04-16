@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # @Time    : 2019/6/18 11:26
-# @Author  : vivid
 # @FileName: testDateTime.py
 # @Software: PyCharm
-# @email    ：331597811@QQ.com
+
 import datetime
 import time
 class TestDateTime:

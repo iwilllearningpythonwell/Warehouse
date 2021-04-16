@@ -1,10 +1,9 @@
  #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
 # @Time    : 2020/1/15 11:34
-# @Author  : vivid
 # @FileName: MongoUtil.py
 # @Software: PyCharm
-# @email    ：331597811@QQ.compymongo
+
 import pymongo
 from DestroyerRobot.automation.util.ConfigUtil import Config
 class MongoUtil:
